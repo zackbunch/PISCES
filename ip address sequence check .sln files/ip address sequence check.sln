@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ip address sequence check", "ip address sequence check.vcxproj", "{EAD08C53-AC2E-4605-94B3-944E08708FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD08C53-AC2E-4605-94B3-944E08708FDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{EAD08C53-AC2E-4605-94B3-944E08708FDE}.Debug|x86.Build.0 = Debug|Win32
+		{EAD08C53-AC2E-4605-94B3-944E08708FDE}.Release|x86.ActiveCfg = Release|Win32
+		{EAD08C53-AC2E-4605-94B3-944E08708FDE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04ECF7D6-3C2F-4FB9-8456-5F2877B513BD}
+	EndGlobalSection
+EndGlobal

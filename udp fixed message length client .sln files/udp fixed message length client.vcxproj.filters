@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllinit.cpp">
+      <Filter>PISCES\03. socket API adapter layer\DLL management</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_apis.cpp">
+      <Filter>PISCES\03. socket API adapter layer\socket error message handling</Filter>
+    </ClCompile>
+    <ClCompile Include="dns_exception.cpp">
+      <Filter>PISCES\04. service access point management\DNS exception classes</Filter>
+    </ClCompile>
+    <ClCompile Include="dns_name.cpp">
+      <Filter>PISCES\04. service access point management\DNS name object</Filter>
+    </ClCompile>
+    <ClCompile Include="host_data.cpp">
+      <Filter>PISCES\04. service access point management\host data %28DNS+IP%29 object</Filter>
+    </ClCompile>
+    <ClCompile Include="ip_address.cpp">
+      <Filter>PISCES\04. service access point management\ip address object</Filter>
+    </ClCompile>
+    <ClCompile Include="service_access_point.cpp">
+      <Filter>PISCES\04. service access point management\service access point object</Filter>
+    </ClCompile>
+    <ClCompile Include="port_number.cpp">
+      <Filter>PISCES\04. service access point management\port number object</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_select.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\0. selectable sockets base classes</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_udp_server.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp server socket</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_udp_peer.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp peer socket</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_udp_client.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp client socket</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_tcp_server.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp server socket</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_tcp_rollover.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp rollover socket</Filter>
+    </ClCompile>
+    <ClCompile Include="selectable_tcp_client.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp client socket</Filter>
+    </ClCompile>
+    <ClCompile Include="socket.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\basic socket class</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_client.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\client-defining classes</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_server.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\server-defining classes</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_tcp.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\tcp-defining classes</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_udp.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\udp-defining classes</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp client socket class</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_rollover.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp rollover socket class</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp server socket class</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_client.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp client %28send-only%29 socket</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_peer.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp peer %28send-recv%29 socket</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_server.cpp">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp server %28recv-only%29 socket</Filter>
+    </ClCompile>
+    <ClCompile Include="message_buffer.cpp">
+      <Filter>PISCES\02. utility classes\message buffering</Filter>
+    </ClCompile>
+    <ClCompile Include="multiple_socket_select.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\select sockets, based on specified events</Filter>
+    </ClCompile>
+    <ClCompile Include="query_client.cpp">
+      <Filter>PISCES\06. service access point console dialogue\query object + client sap setup</Filter>
+    </ClCompile>
+    <ClCompile Include="query_access_point.cpp">
+      <Filter>PISCES\06. service access point console dialogue\query object + sap queries</Filter>
+    </ClCompile>
+    <ClCompile Include="query_server.cpp">
+      <Filter>PISCES\06. service access point console dialogue\query object + server sap setup</Filter>
+    </ClCompile>
+    <ClCompile Include="daytime.cpp">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClCompile>
+    <ClCompile Include="string_stream_handle.cpp">
+      <Filter>PISCES\02. utility classes\strstream handle class</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_exception.cpp">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClCompile>
+    <ClCompile Include="query.cpp">
+      <Filter>PISCES\02. utility classes\console dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.cpp">
+      <Filter>PISCES\02. utility classes\command line processing</Filter>
+    </ClCompile>
+    <ClCompile Include="udp fixed message length client main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="elapsed_time.cpp">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_error_message.cpp">
+      <Filter>PISCES\03. socket API adapter layer</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_fixed_message_length_client.cpp">
+      <Filter>PISCES\07. format-aware message exchange\udp fixed-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_fixed_message_length_server.cpp">
+      <Filter>PISCES\07. format-aware message exchange\udp fixed-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_variable_message_length_client.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_variable_message_length_rollover.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_variable_message_length_server.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fixed_message_length_client.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fixed_message_length_rollover.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fixed_message_length_server.cpp">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fixed_message_length_selectable_rollover.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\2. format-aware selectable classes</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_fixed_message_length_selectable_server.cpp">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\2. format-aware selectable classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dllinit.h">
+      <Filter>PISCES\03. socket API adapter layer\DLL management</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_apis.h">
+      <Filter>PISCES\03. socket API adapter layer\socket error message handling</Filter>
+    </ClInclude>
+    <ClInclude Include="dns_exception.h">
+      <Filter>PISCES\04. service access point management\DNS exception classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dns_name.h">
+      <Filter>PISCES\04. service access point management\DNS name object</Filter>
+    </ClInclude>
+    <ClInclude Include="host_data.h">
+      <Filter>PISCES\04. service access point management\host data %28DNS+IP%29 object</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_address.h">
+      <Filter>PISCES\04. service access point management\ip address object</Filter>
+    </ClInclude>
+    <ClInclude Include="service_access_point.h">
+      <Filter>PISCES\04. service access point management\service access point object</Filter>
+    </ClInclude>
+    <ClInclude Include="port_number.h">
+      <Filter>PISCES\04. service access point management\port number object</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_select.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\0. selectable sockets base classes</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_udp_server.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp server socket</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_udp_peer.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp peer socket</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_udp_client.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp client socket</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_tcp_server.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp server socket</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_tcp_rollover.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp rollover socket</Filter>
+    </ClInclude>
+    <ClInclude Include="selectable_tcp_client.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp client socket</Filter>
+    </ClInclude>
+    <ClInclude Include="socket.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\basic socket class</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_client.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\client-defining classes</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_server.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\server-defining classes</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_tcp.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\tcp-defining classes</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_udp.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\udp-defining classes</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp client socket class</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_rollover.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp rollover socket class</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp server socket class</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_client.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp client %28send-only%29 socket</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_peer.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp peer %28send-recv%29 socket</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_server.h">
+      <Filter>PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp server %28recv-only%29 socket</Filter>
+    </ClInclude>
+    <ClInclude Include="message_buffer.h">
+      <Filter>PISCES\02. utility classes\message buffering</Filter>
+    </ClInclude>
+    <ClInclude Include="multiple_socket_select.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\select sockets, based on specified events</Filter>
+    </ClInclude>
+    <ClInclude Include="query_client.h">
+      <Filter>PISCES\06. service access point console dialogue\query object + client sap setup</Filter>
+    </ClInclude>
+    <ClInclude Include="query_access_point.h">
+      <Filter>PISCES\06. service access point console dialogue\query object + sap queries</Filter>
+    </ClInclude>
+    <ClInclude Include="query_server.h">
+      <Filter>PISCES\06. service access point console dialogue\query object + server sap setup</Filter>
+    </ClInclude>
+    <ClInclude Include="bool.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="daytime.h">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClInclude>
+    <ClInclude Include="string_stream_handle.h">
+      <Filter>PISCES\02. utility classes\strstream handle class</Filter>
+    </ClInclude>
+    <ClInclude Include="interval.h">
+      <Filter>PISCES\02. utility classes\interval management template</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_exception.h">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClInclude>
+    <ClInclude Include="query.h">
+      <Filter>PISCES\02. utility classes\console dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>PISCES\02. utility classes\command line processing</Filter>
+    </ClInclude>
+    <ClInclude Include="elapsed_time.h">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_error_message.h">
+      <Filter>PISCES\03. socket API adapter layer</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_fixed_message_length_client.h">
+      <Filter>PISCES\07. format-aware message exchange\udp fixed-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="udp_fixed_message_length_server.h">
+      <Filter>PISCES\07. format-aware message exchange\udp fixed-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_variable_message_length_client.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_variable_message_length_rolloverr.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_variable_message_length_server.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp variable-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_fixed_message_length_client.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_fixed_message_length_rollover.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_fixed_message_length_server.h">
+      <Filter>PISCES\07. format-aware message exchange\tcp fixed-length message exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_fixed_message_length_selectable_rollover.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\2. format-aware selectable classes</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_fixed_message_length_selectable_server.h">
+      <Filter>PISCES\08. select%28%29-based socket processing\event-selectable socket classes\2. format-aware selectable classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{b598a33f-0fc4-4f0d-907f-95387634c638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES">
+      <UniqueIdentifier>{b5e0cdd7-0e64-47dd-a085-dcdeecdcb6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes">
+      <UniqueIdentifier>{bd28a2dc-665f-42a0-b3d7-a34813bdd593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\time management">
+      <UniqueIdentifier>{5a881bea-95ee-4090-839a-91c89ace81fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\strstream handle class">
+      <UniqueIdentifier>{21a93421-cf9c-4038-8be5-0aa91bc69ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\interval management template">
+      <UniqueIdentifier>{508b2d5b-e4c7-44b5-85b0-8175aeeec2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\console dialogue">
+      <UniqueIdentifier>{4c307ef5-d6f3-4138-b8d9-c90ace8a565e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\command line processing">
+      <UniqueIdentifier>{e618ce9d-5783-4024-990b-4c01791a5be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\message buffering">
+      <UniqueIdentifier>{d4294ef9-f690-42c8-8c7f-f7fc95a5d4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\01. exception management classes">
+      <UniqueIdentifier>{04962aed-0fc8-4d1f-a0c8-6b130a20aa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\00. base configuration">
+      <UniqueIdentifier>{aba62c5c-d02a-48f7-8282-182efff4363b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer">
+      <UniqueIdentifier>{d5d6ea40-71dd-4a12-aeb0-fdd0a6a95d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer\DLL management">
+      <UniqueIdentifier>{a16bd44e-0c46-457d-a408-a6516682942e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer\socket error message handling">
+      <UniqueIdentifier>{8ac422a0-0382-4b48-8c7a-7fb50ef0552c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management">
+      <UniqueIdentifier>{e270fe9c-5f35-44a8-9745-4e0afbd3ba20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\DNS exception classes">
+      <UniqueIdentifier>{f756f077-28bf-465a-bcb3-1eab150d513a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\DNS name object">
+      <UniqueIdentifier>{30005759-53d2-4642-a4fb-b521ef87f729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\host data %28DNS+IP%29 object">
+      <UniqueIdentifier>{0f22b982-75f7-4122-b273-dcdf4c109017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\ip address object">
+      <UniqueIdentifier>{04c01017-4d85-44d3-8ae0-438c7758244e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\port number object">
+      <UniqueIdentifier>{9eeb7ded-5333-4733-a1ba-f78c3836119c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\service access point object">
+      <UniqueIdentifier>{6a583c04-81f1-4c43-b32e-3a0c4f372678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\06. service access point console dialogue">
+      <UniqueIdentifier>{674bb45b-46c4-47b7-ae66-40c2de2e98aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\06. service access point console dialogue\query object + client sap setup">
+      <UniqueIdentifier>{9711aa31-4cc1-4770-97ef-f5f4eb73a276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\06. service access point console dialogue\query object + sap queries">
+      <UniqueIdentifier>{a91ddbc9-dbb9-4ecf-b4c1-8a00b24542c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\06. service access point console dialogue\query object + server sap setup">
+      <UniqueIdentifier>{e1d19c6b-d628-4298-9774-38366a849419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes">
+      <UniqueIdentifier>{4c243d0d-dbc3-4629-b5a9-d5c291eb28e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\basic socket class">
+      <UniqueIdentifier>{6dc83496-887c-42ef-8a4b-2f7b71c4023e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes">
+      <UniqueIdentifier>{660d30fd-cb72-4826-91f6-6976d065dbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\client-defining classes">
+      <UniqueIdentifier>{ee1462c3-5f5a-4968-bf4a-e4194e2cf4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\server-defining classes">
+      <UniqueIdentifier>{a3559d62-6bdf-4ef0-8e1e-6dfa45e9cd69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\tcp-defining classes">
+      <UniqueIdentifier>{fa00ef46-c1d5-482d-bb2e-f4c149629d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\intermediate-level socket classes\udp-defining classes">
+      <UniqueIdentifier>{4a9fead9-cdde-4c74-8285-4cac5a315c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes">
+      <UniqueIdentifier>{0ff28bfa-a123-4a19-aedb-5cad59f765cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes">
+      <UniqueIdentifier>{cb582b23-4337-4b63-9d32-39ce986f4067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp client socket class">
+      <UniqueIdentifier>{b2308780-df7c-4256-9be5-fafb0cdc1a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp rollover socket class">
+      <UniqueIdentifier>{3869e2fd-5057-4909-b62d-1aa28e154b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\tcp classes\tcp server socket class">
+      <UniqueIdentifier>{a8a5c684-c4ea-4692-8d6a-4dd0573751a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes">
+      <UniqueIdentifier>{4470947b-2188-4173-8fe4-050b0eb0d457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp client %28send-only%29 socket">
+      <UniqueIdentifier>{4337aca9-7d2a-4e8a-9246-562c33b3665b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp peer %28send-recv%29 socket">
+      <UniqueIdentifier>{55565d96-81ed-41fb-aca3-0fc69c7692bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\05. vanilla TCP/UDP sockets classes\top-level socket classes\udp classes\udp server %28recv-only%29 socket">
+      <UniqueIdentifier>{03cd1e5e-3d59-404b-9706-5fb6b63f2707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing">
+      <UniqueIdentifier>{2f790855-79bc-4003-bc9a-d7b4d7c1a8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes">
+      <UniqueIdentifier>{52009ba9-564f-435a-9acd-9c1c135a6d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\select sockets, based on specified events">
+      <UniqueIdentifier>{06f84e11-681a-4d52-bd40-d105e39246a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\07. format-aware message exchange">
+      <UniqueIdentifier>{4ffab59f-40ca-44c7-a4ed-67f72af7f9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\07. format-aware message exchange\tcp variable-length message exchange">
+      <UniqueIdentifier>{83af668b-a5eb-40be-ba88-27e4b80ce796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\07. format-aware message exchange\udp fixed-length message exchange">
+      <UniqueIdentifier>{b2b30423-aaa8-4f83-bf0e-7bf3e76782ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\07. format-aware message exchange\tcp fixed-length message exchange">
+      <UniqueIdentifier>{68794d3a-50e5-4c00-a714-4bc6fd22bbfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\0. selectable sockets base classes">
+      <UniqueIdentifier>{3c76319c-319d-41ec-ab92-549858467ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes">
+      <UniqueIdentifier>{ea77fca0-2e89-457f-9a7d-2092d343b780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp client socket">
+      <UniqueIdentifier>{85b1d135-a07b-459c-8317-0d3a49f13e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp rollover socket">
+      <UniqueIdentifier>{5f55c2cb-5775-4797-b24e-761bb21a7343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable tcp server socket">
+      <UniqueIdentifier>{a48ca4c2-56a0-4211-b7e8-dde8f433ab68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp client socket">
+      <UniqueIdentifier>{806b7854-5777-41e4-aa3a-ce395c1423c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp peer socket">
+      <UniqueIdentifier>{591a59e6-fc71-49e9-8ea4-4c81d4f8087b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\1. selectable vanilla TCP/UDP socket classes\selectable udp server socket">
+      <UniqueIdentifier>{01221b15-04a0-4184-9f08-a82bee69db37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\08. select%28%29-based socket processing\event-selectable socket classes\2. format-aware selectable classes">
+      <UniqueIdentifier>{c859224b-b4e2-45e5-a0e4-772d45906def}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="interval.tpl">
+      <Filter>PISCES\02. utility classes\interval management template</Filter>
+    </None>
+  </ItemGroup>
+</Project>

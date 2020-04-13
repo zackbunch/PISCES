@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{2dd8fa3c-3e21-458a-a618-90024e97458d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES">
+      <UniqueIdentifier>{4270374f-98b2-4a51-ba3d-81a6795f0451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\00. base configuration">
+      <UniqueIdentifier>{fc2b80ce-caef-42a2-bc20-3292e97178d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\01. exception management classes">
+      <UniqueIdentifier>{949ed45d-ee9d-4c05-b2b7-95e3565136ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes">
+      <UniqueIdentifier>{569ab64f-dc7e-4f07-84d4-c299a28b2b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\console dialogue">
+      <UniqueIdentifier>{51987a20-a2bd-4f48-9a67-a1c28a4b1bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\strstream handle class">
+      <UniqueIdentifier>{10947d32-b6dc-4c88-bf7e-8a64661aefb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\time management">
+      <UniqueIdentifier>{46c5b81c-2f83-4921-9d62-38eb66aefdac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\command line processing">
+      <UniqueIdentifier>{17f6780d-6e94-4270-baae-074af1439243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\interval management template">
+      <UniqueIdentifier>{bb1fa74c-9a19-4b6c-a3cf-3f08e882c4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\02. utility classes\message buffering">
+      <UniqueIdentifier>{375b0be2-7b1c-4829-9422-09db0192c6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer">
+      <UniqueIdentifier>{fc7ede48-3fdb-4021-9d73-e0f90ec4ff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer\DLL management">
+      <UniqueIdentifier>{b23525fe-0ded-489d-a870-44d92f794c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\03. socket API adapter layer\socket error message handling">
+      <UniqueIdentifier>{4c6982a7-f334-4ef1-bbc0-974fca6d25d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management">
+      <UniqueIdentifier>{ba6496f7-c9ad-4dee-bb37-7c9bb5e6dfe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\DNS exception classes">
+      <UniqueIdentifier>{191a3382-88fa-4718-a75b-0d0d158870c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\ip address object">
+      <UniqueIdentifier>{6e32cdbf-93b3-41ee-aa80-509c5c794058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\service access point object">
+      <UniqueIdentifier>{9eb987cd-e3b5-45ea-bde0-9a262b2edee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\DNS name object">
+      <UniqueIdentifier>{94c26f22-2ca6-418f-97f1-525acd00b8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\port number object">
+      <UniqueIdentifier>{e106978d-811f-42e6-aac9-0d61775b78e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PISCES\04. service access point management\host data %28DNS+IP%29 object">
+      <UniqueIdentifier>{e2e61e08-bc5a-49d9-855d-d0208bbb8011}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="query.cpp">
+      <Filter>PISCES\02. utility classes\console dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="string_stream_handle.cpp">
+      <Filter>PISCES\02. utility classes\strstream handle class</Filter>
+    </ClCompile>
+    <ClCompile Include="daytime.cpp">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.cpp">
+      <Filter>PISCES\02. utility classes\command line processing</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClCompile>
+    <ClCompile Include="stream_exception.cpp">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClCompile>
+    <ClCompile Include="message_buffer.cpp">
+      <Filter>PISCES\02. utility classes\message buffering</Filter>
+    </ClCompile>
+    <ClCompile Include="dllinit.cpp">
+      <Filter>PISCES\03. socket API adapter layer\DLL management</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_error_message.cpp">
+      <Filter>PISCES\03. socket API adapter layer\socket error message handling</Filter>
+    </ClCompile>
+    <ClCompile Include="dns_exception.cpp">
+      <Filter>PISCES\04. service access point management\DNS exception classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ip_address.cpp">
+      <Filter>PISCES\04. service access point management\ip address object</Filter>
+    </ClCompile>
+    <ClCompile Include="service_access_point.cpp">
+      <Filter>PISCES\04. service access point management\service access point object</Filter>
+    </ClCompile>
+    <ClCompile Include="dns_name.cpp">
+      <Filter>PISCES\04. service access point management\DNS name object</Filter>
+    </ClCompile>
+    <ClCompile Include="port_number.cpp">
+      <Filter>PISCES\04. service access point management\port number object</Filter>
+    </ClCompile>
+    <ClCompile Include="host_data.cpp">
+      <Filter>PISCES\04. service access point management\host data %28DNS+IP%29 object</Filter>
+    </ClCompile>
+    <ClCompile Include="self check main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="elapsed_time.cpp">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClCompile>
+    <ClCompile Include="socket_apis.cpp">
+      <Filter>PISCES\03. socket API adapter layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="query.h">
+      <Filter>PISCES\02. utility classes\console dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="string_stream_handle.h">
+      <Filter>PISCES\02. utility classes\strstream handle class</Filter>
+    </ClInclude>
+    <ClInclude Include="daytime.h">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>PISCES\02. utility classes\command line processing</Filter>
+    </ClInclude>
+    <ClInclude Include="bool.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="std.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>PISCES\00. base configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_exception.h">
+      <Filter>PISCES\01. exception management classes</Filter>
+    </ClInclude>
+    <ClInclude Include="interval.h">
+      <Filter>PISCES\02. utility classes\interval management template</Filter>
+    </ClInclude>
+    <ClInclude Include="message_buffer.h">
+      <Filter>PISCES\02. utility classes\message buffering</Filter>
+    </ClInclude>
+    <ClInclude Include="dllinit.h">
+      <Filter>PISCES\03. socket API adapter layer\DLL management</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_error_message.h">
+      <Filter>PISCES\03. socket API adapter layer\socket error message handling</Filter>
+    </ClInclude>
+    <ClInclude Include="dns_exception.h">
+      <Filter>PISCES\04. service access point management\DNS exception classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ip_address.h">
+      <Filter>PISCES\04. service access point management\ip address object</Filter>
+    </ClInclude>
+    <ClInclude Include="service_access_point.h">
+      <Filter>PISCES\04. service access point management\service access point object</Filter>
+    </ClInclude>
+    <ClInclude Include="dns_name.h">
+      <Filter>PISCES\04. service access point management\DNS name object</Filter>
+    </ClInclude>
+    <ClInclude Include="port_number.h">
+      <Filter>PISCES\04. service access point management\port number object</Filter>
+    </ClInclude>
+    <ClInclude Include="host_data.h">
+      <Filter>PISCES\04. service access point management\host data %28DNS+IP%29 object</Filter>
+    </ClInclude>
+    <ClInclude Include="elapsed_time.h">
+      <Filter>PISCES\02. utility classes\time management</Filter>
+    </ClInclude>
+    <ClInclude Include="socket_apis.h">
+      <Filter>PISCES\03. socket API adapter layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="interval.tpl">
+      <Filter>PISCES\02. utility classes\interval management template</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
